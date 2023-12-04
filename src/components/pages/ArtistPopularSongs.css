@@ -8,6 +8,20 @@
     }
   }
 
+  @media (max-width: 769px) {
+    .song-list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;}
+    }
+
+    @media (max-width: 486px) {
+      .song-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;}
+      }
+
   @media (max-width: 321px) {
     .music-box h2{
        font-size: 14px;

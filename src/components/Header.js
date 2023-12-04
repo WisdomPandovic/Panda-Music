@@ -19,9 +19,17 @@ function Header() {
             <li><Link to="search" className='newpost'>Contact</Link></li>
         </div>
       </nav>
+   
       <div className="brand">
-        <span>PandaMusic</span>
+      <li><Link to="/" className='newpost'>PandaMusic</Link></li>
       </div>
+
+      <div className='none'>
+    <div className='mv'> 
+        <li><Link to="/search" className='newpost'>Search</Link></li>
+        <li><Link to="/about" className='newpost'>About</Link></li>
+        </div>
+    </div>
     </header>
   );
 }
