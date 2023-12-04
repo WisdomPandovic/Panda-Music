@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Krona One', sans-serif;
+  color: white;
+  letter-spacing: 3px;
+}
+
+strong{
+  color: white;
+}
+
+.tracks-container {
+  display: flex;
+  overflow-x: scroll; 
+  overflow-y: hidden; 
+  cursor: pointer;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent;
+}
+
+.tracks-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bk-black{
+  background-color: black;
+}
+
+.track-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.track-item {
+  margin-right: 16px;
+  text-align: center;
+  background-color: black;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  width: 250px;
+}
+
+.track {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Remove scrollbar in Chrome/Safari/Edge */
+.tracks-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Remove scrollbar in Firefox */
+.tracks-container {
+  scrollbar-width: none;
+}
+
+.music-box {
+  background-color: #333; 
+  padding: 20px; 
+  border-radius: 10px; 
+  margin-bottom: 10px; 
+}

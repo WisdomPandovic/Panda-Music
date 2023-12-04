@@ -1,0 +1,148 @@
+.bk-black{
+    background-color: black;
+    font-family: 'Krona One', sans-serif;
+  }
+
+.search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex-grow: 1;
+    padding: 10px;
+    color: black;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    background-color: #333; 
+    border-radius: 5px;
+  }
+  
+  .result-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .result-card {
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: black;
+  }
+  
+  .result-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .result-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.player-container {
+  width: 80%;
+  margin: auto;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 0px;
+}
+
+    @media (max-width: 768px) {
+          .result-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+          }
+  }
+
+  @media (max-width: 500px) {
+    .search-container {
+        margin: auto 20px ;
+    }
+
+      .result-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      video {
+        width: 50% !important; 
+        margin: auto;
+    }     
+}
+
+@media (max-width: 425px) {
+    .search-container {
+        margin: auto 20px ;
+    }
+
+      .result-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+      }
+
+      form {
+        display: block;
+      }
+
+      button {
+        margin: 10px;
+        padding: 10px;
+        width: 170px;
+      }
+
+      .search-container {
+        margin: 20px 10px;
+        padding: 20px 50px;  
+      }
+
+     
+      video {
+        width: 50% !important;
+        margin: auto;
+    }
+
+    .player{
+      width: 100% !important;
+    }     
+}
+
+@media (max-width: 324px) {  
+    video {
+      width: 40% !important;
+      margin: auto;
+  }
+
+  .player{
+    width: 100% !important;
+  }     
+}

@@ -1,0 +1,43 @@
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    letter-spacing: 5px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+  }
+  
+  .left-links ul,
+  .right-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .left-links li,
+  .right-links li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .brand {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+
+  @media (max-width: 768px) {
+    nav{
+      display:none;
+    }
+  }
