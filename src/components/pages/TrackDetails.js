@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import Header from '../Header';
+import Footer from '../Footer';
 import React, { useState, useEffect } from 'react';
 import ReactPlayer from 'react-player';
 import './TrackDetails.css';
@@ -107,6 +108,7 @@ function TrackDetails() {
             <p></p>
           </div>
       </div>
+      <Footer />
     </div>
   );
 }

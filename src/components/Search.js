@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player';
 import { useNavigate } from 'react-router-dom';
 import './Search.css';
 import Header from './Header';
+import Footer from './Footer';
 
 const Search = () => {
   const [query, setQuery] = useState('');
@@ -172,6 +173,7 @@ const Search = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };

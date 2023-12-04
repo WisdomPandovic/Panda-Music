@@ -1,3 +1,18 @@
 .about-content{
     text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about-content li{
+    list-style: none;
+}
+
+.about-content h3, h2{
+    color: red;
+    margin: 30px 0px 10px;
+}
+
+hr{
+    margin: 10px 0px;
 }

@@ -5,6 +5,7 @@ import IgboRapMusic from './IgboRapMusic';
  import NewReleases from './NewReleases';
  import PopularArtist from './PopularArtist';
  import Header from '../Header';
+ import Footer from '../Footer';
 
 function MusicPlayerHomePage() {
   return (
@@ -16,6 +17,7 @@ function MusicPlayerHomePage() {
       <ChristmasSongs/>
       <SpotifyTopAfrobeats/>
       <IgboRapMusic/>
+      <Footer/>
     </div>
   );
 }

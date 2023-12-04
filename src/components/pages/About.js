@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import './About.css';
+import Footer from '../Footer'
 
 function About() {
   return (
@@ -15,7 +16,7 @@ function About() {
         <p>
           Our mission is to provide you with a seamless and enjoyable music experience. Feel free to explore
           the various features and discover the world of music with us.
-        </p>
+        </p><hr/>
 
         <h3>Technology Stack</h3>
         <p>
@@ -29,17 +30,17 @@ function About() {
           We strive to deliver the best possible experience for music lovers around the world.
         </p>
         <ul>
-          <li>John Doe - Frontend Developer</li>
-          <li>Jane Smith - Backend Developer</li>
-          <li>Sam Brown - UX/UI Designer</li>
+          <li>Wisdom Onwuchekwa - Full Stack Developer</li>
         </ul>
 
         <h3>Contact Us</h3>
         <p>
-          Have questions, suggestions, or just want to say hello? Feel free to reach out to us at
-          <a href="mailto:info@example.com"> info@example.com</a>.
+          Have questions, suggestions, or just want to say hello? Feel free to reach out to me at
+          <p> wisdompandovic@gmail.com</p>
         </p>
       </div>
+
+      <Footer/>
     </div>
   );
 }
