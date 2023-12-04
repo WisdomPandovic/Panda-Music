@@ -10,7 +10,7 @@ Panda Music is a music streaming app designed to bring you the latest tracks and
 
 ## Live Demo
 
-Check out the live demo of Panda Music [here](https://panda-music.vercel.app/) [].
+Check out the live demo of Panda Music [here](https://panda-music.vercel.app/) 
 
 ## Technologies Used
 
