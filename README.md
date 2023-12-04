@@ -8,6 +8,10 @@ Panda Music is a music streaming app designed to bring you the latest tracks and
 - **Genre-specific Playlists:** Dive into curated playlists for various music genres.
 - **Album Details:** Get information about your favorite albums and tracks.
 
+## Live Demo
+
+Check out the live demo of Panda Music [here](#) [https://panda-music.vercel.app/].
+
 ## Technologies Used
 
 - React
@@ -28,16 +32,16 @@ Panda Music is a music streaming app designed to bring you the latest tracks and
 
 3. Set up environment variables:
 
-Create a .env file in the root directory and add your Spotify API credentials:
-REACT_APP_SPOTIFY_CLIENT_ID=your-client-id
-REACT_APP_SPOTIFY_CLIENT_SECRET=your-client-secret
+   Create a .env file in the root directory and add your Spotify API credentials:
+   REACT_APP_SPOTIFY_CLIENT_ID=your-client-id
+   REACT_APP_SPOTIFY_CLIENT_SECRET=your-client-secret
 
 4. Run the app
    npm start
 
 5. Open the app in your browser:
 
-Visit http://localhost:3000 to enjoy Panda Music.
+   Visit http://localhost:3000 to enjoy Panda Music.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues and pull requests.
